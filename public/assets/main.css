@@ -1,0 +1,298 @@
+body, html {
+    margin: 0px;
+    padding: 0px;
+    left: 0px;
+    top: 0px;
+}
+
+body {
+    font-family: 'Poiret One', cursive;
+    color: black;
+    font-size: 1.5em;
+}
+
+.nav {
+    top: 0px;
+    margin-top: 0px;
+    padding: 30px 200px;
+}
+
+a {
+    text-decoration: none; 
+    color: black;
+}
+
+a.logo {
+    font-size: 50px;
+}
+
+a.login {
+    margin-top: 25px;
+    font-size: 25px;
+    border: solid #00e676 2px;
+    padding: 5px 20px;
+    background: transparent;
+    
+    -webkit-transition: color .6s, background .8s;
+    -moz-transition: color .6s, background .8s;
+    -o-transition: color .6s, background .8s;
+    -ms-transition: color .6s, background .8s;
+    transition: color .6s, background .8s;
+}
+
+a.login:hover, a.login:active {
+    color: white;
+    background: #11FF9C;
+}
+
+img.logo {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.top {
+    margin-top: 150px;
+    text-align: center;
+    font-size: 1.4em;
+    margin-bottom: 250px;
+}
+
+.free_hint {
+    color: #9e9e9e;
+    font-size: .5em;
+}
+
+.getstarted {
+    font-weight: bolder;
+    color: white;
+    padding: 12px 20px;
+    text-align: center;
+    border: solid #00e676 3px;
+    border-radius: 300px;
+    background-color: #00e676;
+    
+    -webkit-transition: background-color 1s, border 1s, color .6s;
+    -moz-transition: background-color 1s, border 1s, color .6s;
+    -o-transition: background-color 1s, border 1s, color .6s;
+    -ms-transition: background-color 1s, border 1s, color .6s;
+    transition: background-color 1s, border 1s, color .6s;
+}
+
+.getstarted:hover, .getstarted:active {
+    background-color: white;
+    border: solid #00e676 3px;
+    color: #00e676;
+}
+
+.tagline {
+    margin-bottom: 66px;
+}
+
+.about {
+    margin: auto;
+    max-width: 960px;
+    padding: 2px 20px;
+}
+
+@media screen and (min-width: 64em) and (max-height: 64em) {
+    .left {
+        width: 50%;
+        float: left;
+    }
+
+    .right {
+        width: 50%;
+        float: right;
+    }
+
+    .group {
+        height: 600px;
+    }
+
+    .text {
+        padding-top: 100px;
+    } 
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.navlink {
+    margin: 0px 30px;
+    border-bottom: dotted transparent 2px;
+    color: black;
+    
+    transition: border-bottom 1s, color 1s;
+}
+
+.navlink:hover, .navlink:active {
+    border-bottom: dotted #00e676 2px;
+    color: #00e676;
+}
+
+.navright {
+    float: right;
+    margin-top: 25px;
+}
+
+.footerleft {
+    width: 50%;
+}
+
+.footerright {
+    float: right;
+    width: 50%;
+    margin-top: -50px;
+    text-align: right;
+}
+
+.footer {
+    background: #e0e0e0;
+    height: 60px;
+    padding: 20px 50px;
+}
+
+.footer a {
+    border-bottom: dotted black 2px;
+    color: black;
+    
+    -webkit-transition: border-bottom 1s, color 1s;
+    -moz-transition: border-bottom 1s, color 1s;
+    -o-transition: border-bottom 1s, color 1s;
+    -ms-transition: border-bottom 1s, color 1s;
+    transition: border-bottom 1s, color 1s;
+}
+
+.footer a:hover, .footer a:active {
+    color: #00e676;
+    border-bottom: dotted #00e676 2px;
+}
+
+input[type=submit], input[type=reset] {
+    margin-top: 9px;
+    background: black; 
+    color: white;
+    border: solid black 2px;
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 25px;
+    height: 50px;
+    width: 160px;
+    margin-bottom: 50px;
+
+    -webkit-transition: color .5s, background 1s, border 1s;
+    -moz-transition: color .5s, background 1s, border 1s;
+    -ms-transition: color .5s, background 1s, border 1s;
+    -o-transition: color .5s, background 1s, border 1s;
+    transition: color .5s, background 1s, border 1s;
+}
+
+input[type=submit]:hover, input[type=submit]:active, input[type=reset]:hover, input[type=reset]:active {
+    color: #00e676; /* Theme color */
+    background: white;
+    border: solid #00e676 2px; /* Theme color */
+}
+
+input[type=text], input[type=password] {
+    width: 500px;
+    height: 50px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 25px;
+    font-family: sans-serif, serif, cursive;
+
+    -webkit-transition: border .5s;
+    -moz-transition: border .5s;
+    -ms-transition: border .5s;
+    -o-transition: border .5s;
+    transition: border .5s;
+}
+
+input[type=text]:hover, input[type=text]:active, input[type=text]:focus, input[type=password]:hover, input[type=password]:active, input[type=password]:focus {
+    border: 2px solid #00e676; /* Theme color */
+}
+
+input[type=color] {
+    width: 500px;
+    height: 50px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 25px;
+    font-family: sans-serif, serif, cursive;
+    margin-left: -30px;
+
+    -webkit-transition: border .5s;
+    -moz-transition: border .5s;
+    -ms-transition: border .5s;
+    -o-transition: border .5s;
+    transition: border .5s;
+}
+
+input[type=color]:hover, input[type=color]:active, input[type=color]:focus {
+    border: 2px solid #00e676; /* Theme color */
+}
+
+textarea {
+    width: 500px;
+    height: 300px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 25px;
+    resize: none;
+    font-family: sans-serif, serif, cursive;
+
+    -webkit-transition: border .5s;
+    -moz-transition: border .5s;
+    -ms-transition: border .5s;
+    -o-transition: border .5s;
+    transition: border .5s;
+}
+
+textarea:hover, textarea:active, textarea:focus {
+    border: 2px solid #00e676; /* Theme color */
+}
+
+.contact {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.abouttop {
+    padding-top: 100px;
+    max-width: 960px; 
+    margin: auto;
+    padding-bottom: 30%;
+}
+
+.helptop {
+    padding-top: 100px;
+    max-width: 960px; 
+    margin: auto;
+    padding-bottom: 30%;
+}
+
+.highlighted {
+    border-bottom: dotted #00e676 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
